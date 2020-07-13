@@ -1,0 +1,146 @@
+/* cyrillic */
+@font-face {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/comfortaa/v29/1Pt_g8LJRfWJmhDAuUsSQamb1W0lwk4S4WjMDrcfIA9c.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  }
+@media only screen and (min-width: 1200px) {
+    .nav-photo img {
+        height: 100%;
+        width: 100%;
+    }
+    .nav-photo {
+        height: 1000px;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .nav-photo img {
+        height: 100%;
+        width: 1600px;
+    }
+    .nav-photo {
+        height: 1000px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .nav-photo img {
+        height: 100%;
+        width: 1200px;
+    }
+    .nav-photo {
+        height: 900px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .nav-photo img {
+        height: 100%;
+        width: 900px;
+    }
+    .nav-photo {
+        height: 700px;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .nav-photo img {
+        height: 100%;
+        width: 800px;
+    }
+    .nav-photo {
+        height: 725px;
+    }
+}
+body {
+    font-family: 'Comfortaa', cursive;
+    background-color: rgba(84, 104, 104, 0.651);
+}
+/*NAV*/
+.container-nav {
+    width: 100%;
+    height: 45px;
+    position: fixed;
+    display: block;
+    background-color: rgba(10,10,10,0.5);
+    text-align: center;
+    padding-bottom: 25px;
+    opacity: 0.75;
+}
+.nav-links {
+    display: inline-block;
+    margin: 10px;
+
+}
+/*NAV-PHOTO*/
+.container-nav-photo {
+    width: 100%;
+    
+}
+.nav-photo {
+    width:100%;
+}
+.nav-photo img {
+    height: 100%;
+}
+
+/*MAIN*/
+#main-location {
+
+}
+.container-main {
+    margin: auto 100px;
+    height: 700px;
+    align-items: center;
+
+}
+.main-content {
+    width: inherit;
+    height: inherit;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: row wrap;
+    flex-direction: row;
+}
+.about-us {
+    margin-top: 75px;
+    height: 500px;
+    width: 700px;
+    color: white;
+    text-align: center;
+    background-color:rgba(0, 0, 0, 0.5);
+}
+.photos  {
+    display: flex;
+    width: 700px;
+    height: 500px;
+    margin-top: 75px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.photos img{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin: 5px;
+    border: solid #ffffff 2px;
+}
+.photos img:hover {
+    opacity: 0.5;
+}
+h1 {
+
+}
+p {
+    text-align: left;
+    padding: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+
+}
+a , a:hover{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
